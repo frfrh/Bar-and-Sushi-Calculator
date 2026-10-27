@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonDialogIncreaseCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextDialogCount"
+            android:layout_alignRight="@+id/editTextDialogCount"
+            android:text="@string/plus_sign" />
+
+        <EditText
+            android:id="@+id/editTextDialogCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonDialogIncreaseCount"
+            android:layout_centerHorizontal="true"
+            android:ems="5"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/buttonDialogDecreaseCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonDialogIncreaseCount"
+            android:layout_alignRight="@+id/editTextDialogCount"
+            android:layout_below="@+id/editTextDialogCount"
+            android:text="@string/minus_sign" />
+
+        <Button
+            android:id="@+id/buttonDialogDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/editTextDialogCount"
+            android:layout_below="@+id/buttonDialogDecreaseCount"
+            android:text="@string/text_done" />
+
+    </RelativeLayout>
+
+</LinearLayout>

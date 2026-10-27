@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <color name="">#</color> -->
+
+    <color name="black">#FF000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="magenta">#FFFF00FF</color>
+    <color name="cyan">#FF00FFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="grey_90">#FF1a1a1a</color>
+    <color name="grey_80">#FF333333</color>
+    <color name="grey_70">#FF4d4d4d</color>
+    <color name="grey_60">#FF666666</color>
+    <color name="grey_50">#FF808080</color>
+    <color name="grey_40">#FF999999</color>
+    <color name="grey_30">#FFb3b3b3</color>
+    <color name="grey_20">#FFcccccc</color>
+    <color name="grey_10">#FFe6e6e6</color>
+
+</resources>

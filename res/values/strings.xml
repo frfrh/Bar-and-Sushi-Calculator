@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <string name=""></string> -->
+    <string name="app_name">Bar and Sushi Calculator</string>
+    <string name="path_folder_to_save">Bar and Sushi Calculator</string>
+    
+    <string name="empty"></string>
+    <string name="whitespace"> </string>
+    <string name="plus_sign">+</string>
+    <string name="minus_sign">-</string>
+    <string name="remove_sign">X</string>
+    <string name="digit_null">0</string>
+    <string name="text_name">name</string>
+    <string name="text_insert_name">insert name</string>
+    <string name="text_invalid_name">invalid name</string>
+    <string name="text_save_count">save counts</string>
+    <string name="text_count">count</string>
+    <string name="text_price">price</string>
+    <string name="text_icon">icon</string>
+    <string name="text_price_unit_upper">$</string>
+    <string name="text_price_unit_lower">ct</string>
+    <string name="text_choose_file">choose file to load</string>
+    <string name="text_set_count">set count</string>
+    <string name="text_set_price">set price</string>
+    <string name="text_done">done</string>
+    <string name="text_add">add</string>
+    <string name="text_preis_leer">0,00€</string>
+    <string name="text_space_price"> - </string>
+    <string name="text_name_blue_plate">blue plate</string>
+    <string name="text_name_yellow_plate">yellow plate</string>
+    <string name="text_name_grey_plate">grey plate</string>
+    <string name="text_name_green_plate">green plate</string>
+    <string name="text_name_purple_plate">purple plate</string>
+    <string name="text_name_orange_plate">orange plate</string>
+    <string name="text_name_pink_plate">pink plate</string>
+    <string name="text_name_red_plate">red plate</string>
+    <string name="text_name_black_plate">black plate</string>
+    <string name="text_name_white_plate">white plate</string>
+    <string name="text_sure_delete1">Are you sure you want to delete </string>
+    <string name="text_sure_delete2"></string>
+    <string name="text_sure_delete_selection">Are you sure you want to delete the selection</string>
+    <string name="text_sure_clear_bill">Are you sure you want to clear the bill</string>
+    <string name="text_sure_clear_location">Are you sure you want to clear the location</string>
+    <string name="questionmark">"?"</string>
+    <string name="questionmark_leading">""</string>
+    <string name="price_separator">.</string>
+    <string name="text_yes">yes</string>
+    <string name="text_no">no</string>
+    
+    <string name="text_add_food">Add food</string>
+    <string name="text_select_icon">Select icon</string>
+        
+    <string name="action_settings">Settings</string>
+    <string name="action_add_food">Add Food</string>
+    <string name="action_submenu_selection">Selection":"</string>
+    <string name="action_add_to_bill">Add to bill</string>
+    <string name="action_delete_selected">delete</string>
+    <string name="action_clear_bill">clear bill</string>
+    <string name="action_clear_location">clear location</string>
+    <string name="action_save_bill">save bill</string>
+    <string name="action_save_location">save location</string>
+    <string name="action_load_bill">load bill</string>
+    <string name="action_load_location">load location</string>
+    
+    <string name="tab_name_bill">Bill</string>
+    <string name="tab_name_location">Location</string>
+    
+    <string name="text_total_price">Total Price: </string>
+    
+    
+    <string name="text_rename">rename</string>
+    <string name="text_save">save</string>
+    <string name="text_abort">abort</string>
+    <string name="text_load_file_button">load</string>
+    
+    
+    <string name="context_menu_text_change_count">change count</string>
+    <string name="context_menu_text_change_price">change price</string>
+    <string name="context_menu_text_remove_item">remove item</string>
+    
+    <string name="error_no_file_found">NO FILES FOUND</string>
+    <string name="error_intent_extra_read_error">ERROR</string>
+    <string name="error_nothing_selected_in_location">Please select at least one item in list</string>
+    
+    <string-array name="string_array_icon_type">
+        <item>All Icons</item>
+        <item>Sushi plates</item>
+        <item>Food</item>
+        <item>Drinks</item>
+        <item>others</item>
+    </string-array>
+    
+
+</resources>

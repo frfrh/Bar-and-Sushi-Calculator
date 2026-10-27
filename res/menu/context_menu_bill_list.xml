@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/context_view_change_count"
+        android:title="@string/context_menu_text_change_count">
+    </item>
+    <item
+        android:id="@+id/context_view_change_price"
+        android:title="@string/context_menu_text_change_price">
+    </item>
+    <item
+        android:id="@+id/context_view_rename"
+        android:title="@string/text_rename">
+    </item>
+    <item
+        android:id="@+id/context_view_remove_item"
+        android:title="@string/context_menu_text_remove_item">
+    </item>
+
+</menu>

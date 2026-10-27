@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <string name=""></string> -->
+    <string name="app_name">Bar und Sushi Rechner</string>
+    <string name="path_folder_to_save">Bar and Sushi Calculator</string>
+    
+    <string name="empty"></string>
+    <string name="whitespace"> </string>
+    <string name="plus_sign">+</string>
+    <string name="minus_sign">-</string>
+    <string name="remove_sign">X</string>
+    <string name="digit_null">0</string>
+    <string name="text_name">Name</string>
+    <string name="text_insert_name">Namen einfügen</string>
+    <string name="text_invalid_name">ungültiger Name</string>
+    <string name="text_save_count">speicher Anzahl</string>
+    <string name="text_count">Anzahl</string>
+    <string name="text_price">Preis</string>
+    <string name="text_icon">Icon</string>
+    <string name="text_price_unit_upper">€</string>
+    <string name="text_price_unit_lower">ct</string>
+    <string name="text_choose_file">wähle Datei zum Laden</string>
+    <string name="text_set_count">Anzahl ändern</string>
+    <string name="text_set_price">Preis andern</string>
+    <string name="text_done">fertig</string>
+    <string name="text_add">zufügen</string>
+    <string name="text_preis_leer">0,00€</string>
+    <string name="text_space_price"> - </string>
+    <string name="text_name_blue_plate">blauer Teller</string>
+    <string name="text_name_yellow_plate">gelber Teler</string>
+    <string name="text_name_grey_plate">grauer Teller</string>
+    <string name="text_name_green_plate">grüner Teller</string>
+    <string name="text_name_purple_plate">lila Teller</string>
+    <string name="text_name_orange_plate">orangener Teller</string>
+    <string name="text_name_pink_plate">pinker Teller</string>
+    <string name="text_name_red_plate">roter Teller</string>
+    <string name="text_name_black_plate">schwarzer Teller</string>
+    <string name="text_name_white_plate">weißer Teller</string>
+    <string name="text_sure_delete1">Bist du sicher, dass du</string>
+    <string name="text_sure_delete2">löschen willst</string>
+    <string name="text_sure_clear_bill">Bist du sicher, dass du die Rechnung löschen willst</string>
+    <string name="text_sure_clear_location">Bist du sicher, dass du die Location löschen willst</string>
+    <string name="questionmark">"?"</string>
+    <string name="questionmark_leading">""</string>
+    <string name="price_separator">.</string>
+    <string name="text_yes">ja</string>
+    <string name="text_no">nein</string>
+    
+    <string name="text_add_food">Essen zufügen</string>
+    <string name="text_select_icon">Icon auswählen</string>
+        
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_add_food">Essen hinzufügen</string>
+    <string name="action_submenu_selection">Auswahl":"</string>
+    <string name="action_add_to_bill">Zur Rechnung zufügen</string>
+    <string name="action_delete_selected">Löschen</string>
+    <string name="action_clear_bill">Rechnung löschen</string>
+    <string name="action_clear_location">Location löschen</string>
+    <string name="action_save_bill">Rechnung speichern</string>
+    <string name="action_save_location">Location speichern</string>
+    <string name="action_load_bill">Rechnung laden</string>
+    <string name="action_load_location">Location laden</string>
+    
+    <string name="tab_name_bill">Rechnung</string>
+    <string name="tab_name_location">Location</string>
+    
+    <string name="text_total_price">Gesammtpreis: </string>
+    
+    <string name="text_rename">umbenennen</string>
+    <string name="text_save">speichern</string>
+    <string name="text_abort">abbrechen</string>
+    <string name="text_load_file_button">laden</string>
+    
+    
+    <string name="context_menu_text_change_count">Anzahl ändern</string>
+    <string name="context_menu_text_change_price">Preis ändern</string>
+    <string name="context_menu_text_remove_item">löschen</string>
+    
+    <string name="error_no_file_found">KEINE DATEIEN GEFUNDEN</string>
+    <string name="error_intent_extra_read_error">FEHLER</string>
+    <string name="error_nothing_selected_in_location">Bitte wähle wenigstens eins aus</string>
+    
+    <string-array name="string_array_icon_type">
+        <item>Alle Icons</item>
+        <item>Sushi Teller</item>
+        <item>Essen</item>
+        <item>Getränke</item>
+        <item>andere</item>
+    </string-array>
+    
+
+</resources>

@@ -1,0 +1,60 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_add_food"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_add_food"/>
+
+    <!--
+         <group android:id="@[+][package:]id/resource name"
+           android:checkableBehavior=["none" | "all" | "single"]
+           android:visible=["true" | "false"]
+           android:enabled=["true" | "false"]
+           android:menuCategory=["container" | "system" | "secondary" | "alternative"]
+           android:orderInCategory="integer" >
+    -->
+    <item
+        android:id="@+id/action_group"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/icon_btn_drop_down"
+        android:title="@string/action_submenu_selection">
+        <menu>
+            <item
+                android:id="@+id/action_add_to_bill"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="@string/action_add_to_bill"/>
+            <item
+                android:id="@+id/action_delete_selected"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="@string/action_delete_selected"/>
+        </menu>
+
+        <!--
+         <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+        -->
+        <item
+            android:id="@+id/action_clear_location"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            android:title="@string/action_clear_location"/>
+        <item
+            android:id="@+id/action_save_location"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            android:title="@string/action_save_location"/>
+        <item
+            android:id="@+id/action_load_location"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            android:title="@string/action_load_location"/>
+    </item>
+
+</menu>

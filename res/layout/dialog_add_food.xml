@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editTextNameNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/text_name" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" >
+
+            <Button
+                android:id="@+id/buttonDialogPriceUpperDecrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/buttonDialogPriceUpperIncrease"
+                android:layout_alignRight="@+id/editTextDialogPriceUpper"
+                android:layout_below="@+id/editTextDialogPriceUpper"
+                android:text="@string/minus_sign" />
+
+            <Button
+                android:id="@+id/ButtonDialogPriceLowerDecrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/buttonDialogPriceUpperDecrease"
+                android:layout_alignBottom="@+id/buttonDialogPriceUpperDecrease"
+                android:layout_alignLeft="@+id/EditTextDialogPriceLower"
+                android:layout_alignRight="@+id/EditTextDialogPriceLower"
+                android:text="@string/minus_sign" />
+
+            <Button
+                android:id="@+id/ButtonDialogPriceLowerIncrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/EditTextDialogPriceLower"
+                android:layout_alignLeft="@+id/EditTextDialogPriceLower"
+                android:layout_alignRight="@+id/EditTextDialogPriceLower"
+                android:text="@string/plus_sign" />
+
+            <Button
+                android:id="@+id/buttonDialogPriceUpperIncrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/editTextDialogPriceUpper"
+                android:text="@string/plus_sign" />
+
+            <EditText
+                android:id="@+id/editTextDialogPriceUpper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/buttonDialogPriceUpperIncrease"
+                android:ems="2"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textViewSeparator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editTextDialogPriceUpper"
+                android:layout_toRightOf="@+id/editTextDialogPriceUpper"
+                android:text="@string/price_separator"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/EditTextDialogPriceLower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/buttonDialogPriceUpperDecrease"
+                android:layout_toRightOf="@+id/textViewSeparator"
+                android:ems="2"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textViewUnit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/EditTextDialogPriceLower"
+                android:layout_toRightOf="@+id/EditTextDialogPriceLower"
+                android:text="@string/text_price_unit_upper"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewPriceTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/relativeLayout1"
+            android:text="@string/text_price"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textViewIconTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/text_icon"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageButton
+            android:id="@+id/imageButtonIconNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textViewIconTag"
+            android:contentDescription="@string/empty"
+            android:src="@drawable/ic_launcher" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonDialogAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_add" />
+
+</LinearLayout>

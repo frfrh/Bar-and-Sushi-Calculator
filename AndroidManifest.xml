@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.freihube.barandsushicalculator"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="de.freihube.barandsushicalculator.Activity_Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="de.freihube.barandsushicalculator.ActivityBill"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="de.freihube.barandsushicalculator.ActivityLocation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="de.freihube.barandsushicalculator.DialogChangePrice"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/text_set_price"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="de.freihube.barandsushicalculator.DialogChangeCount"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/text_set_count"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="de.freihube.barandsushicalculator.DialogDelete"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="de.freihube.barandsushicalculator.DialogLoadFile"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/text_choose_file"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="de.freihube.barandsushicalculator.DialogAddFood"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/text_add_food"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="de.freihube.barandsushicalculator.DialogChooseIcon"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/text_select_icon"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+    </application>
+
+</manifest>
